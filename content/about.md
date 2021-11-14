@@ -1,5 +1,5 @@
 ---
-Title: Om
+Title: About
 Description: About this webpage.
 ---
 Om den här webbplatsen
