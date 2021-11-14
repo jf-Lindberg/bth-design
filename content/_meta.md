@@ -1,11 +1,11 @@
 ---
 Logo: image/css.png
-Tagline: Filip Lindbergs portfolio.
+Tagline: Min portfolio
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/jf-Lindberg
-      icon: github
+      icon: fab fa-github
     - title: Länk till min facebook.
       url: https://facebook.com/jflindberg
-      icon: facebook
+      icon: fab fa-facebook
 ---
