@@ -33,7 +33,7 @@ h1 {
 
 .title {
     * {
-        color: #111;
+        color: $font-color;
     }
     
     p {
@@ -41,8 +41,10 @@ h1 {
     }
 }
 
-.main {
-    p {
-        width: 45%;
-    }
+a {
+    color: $border-color;
+}
+
+a:visited {
+    color: $border-color;
 }

@@ -1,0 +1,31 @@
+.box {
+    background-color: $dark-shadow-color;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid $border-color;
+    margin: auto;
+    a {
+        color: $bg-color;
+        text-decoration: none;
+    }
+}
+
+.box:hover {
+    outline: 2px solid $bg-color;
+}
+
+.landing-page {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 5vh;
+}
+
+.landing-page h1 {
+    grid-column: span 3;
+    justify-self: center;
+}

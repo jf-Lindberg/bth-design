@@ -1,5 +1,5 @@
 ---
-Title: Hem
+Title: Home
 Description: Home page.
 ---
 

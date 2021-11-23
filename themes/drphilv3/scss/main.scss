@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html,
+body {
+    min-height: 100vh;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $bg-color;
+    padding: 0 1vw;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+/* Header */
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+/* Navigation */
+
+.nav {
+    li:hover {
+        transform: scale(1.2);
+    }
+}
+
+/* Logo */
+
+.logo {
+    img {
+        max-width: 128px;
+        height: auto;
+    }
+}
+
+/* Title */
+
+.title,
+.logo {
+    padding: 3em 3em 3em 0;
+}
+
+/* Main */
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    margin: 0 auto 5vh auto;
+    padding: 2vw;
+    background-color: $shadow-color;
+    border: 0.2vw solid $dark-shadow-color;
+
+    img {
+        border-width: 0.2rem;
+        border-style: solid;
+        border-color: $border-color;
+        display: block;
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $border-color;
+    padding-top: 0.25em;
+}
+
+.footer a {
+    color: #222;
+    text-decoration: none;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+.fab {
+    color: $font-color;
+}
+
+/* Reduce big images in perceived size */
+
+.reduced-img {
+    max-width: 60%;
+}
