@@ -1,0 +1,38 @@
+.box {
+    // background-color: $bg-color;
+    width: 200px;
+    height: 120px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid $border-color;
+    margin: auto;
+
+    a,
+    h3,
+    p {
+        color: $font-color;
+        text-decoration: none;
+    }
+}
+
+// .box:hover {
+//     outline: 2px solid $font-color;
+// }
+
+.landing-page {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 5vh;
+}
+
+.landing-page h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.landing-page a {
+    text-decoration: none;
+}

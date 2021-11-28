@@ -1,6 +1,6 @@
 ---
-Logo: image/origami.png
-Tagline: Min portfolio
+Logo: far fa-file-code
+Tagline: Filip Lindberg
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/jf-Lindberg/bth-design
