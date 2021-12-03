@@ -6,14 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "watch": "sass drphilv4/scss/style.scss:drphilv4/css/style.css drphilv4/scss/style-dark.scss:drphilv4/css/style-dark.css --no-source-map --watch",
-    "watch-min": "sass drphilv4/scss/style.scss:drphilv4/css/style.min.css drphilv4/scss/style-dark.scss:drphilv4/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "watch": "sass drphilv5/scss/style.scss:drphilv5/css/style.css drphilv5/scss/style-dark.scss:drphilv5/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass drphilv5/scss/style.scss:drphilv5/css/style.min.css drphilv5/scss/style-dark.scss:drphilv5/css/style-dark.min.css --no-source-map --watch --style compressed",
     "style": "npm run style-light && npm run style-dark",
-    "style-min": "sass themes/drphilv4/scss/style.scss themes/drphilv4/css/style.min.css --no-source-map --style compressed",
-    "style-dark": "sass themes/drphilv4/scss/style-dark.scss themes/drphilv4/css/style-dark.css --no-source-map",
-    "style-dark-min": "sass themes/drphilv4/scss/style-dark.scss themes/drphilv4/css/style-dark.min.css --no-source-map --style compressed",
-    "style-light": "sass themes/drphilv4/scss/style.scss themes/drphilv4/css/style.css --no-source-map",
-    "style-light-min": "sass themes/drphilv4/scss/style.scss themes/drphilv4/css/style.min.css --no-source-map --style compressed"
+    "style-min": "sass themes/drphilv5/scss/style.scss themes/drphilv5/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass themes/drphilv5/scss/style-dark.scss themes/drphilv5/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass themes/drphilv5/scss/style-dark.scss themes/drphilv5/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass themes/drphilv5/scss/style.scss themes/drphilv5/css/style.css --no-source-map",
+    "style-light-min": "sass themes/drphilv5/scss/style.scss themes/drphilv5/css/style.min.css --no-source-map --style compressed"
   },
   "repository": {
     "type": "git",
