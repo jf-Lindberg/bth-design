@@ -6423,7 +6423,7 @@ a:visited {
   display: block;
   margin: auto;
   max-width: 100%;
-  border: 2px solid black;
+  border: 2px solid #b0ded2;
 }
 
 .youtube {
@@ -6432,7 +6432,7 @@ a:visited {
   height: 0;
   overflow: hidden;
   max-width: 100%;
-  border: 2px solid black;
+  border: 2px solid #b0ded2;
 }
 
 .youtube iframe,

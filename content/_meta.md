@@ -1,5 +1,4 @@
 ---
-Logo: far fa-file-code
 Tagline: Filip Lindberg
 Social:
     - title: Link till sidans github repo.
